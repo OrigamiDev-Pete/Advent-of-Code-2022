@@ -8,7 +8,6 @@ namespace Day1
             // Part one
             var input = File.ReadAllLines("input.txt");
             List<int> totals = new();
-            totals.Add(0);
             var sum = 0;
             foreach (var line in input)
             {
